@@ -1,0 +1,615 @@
+*{
+    padding: 0px; 
+    margin: 0px; 
+}
+
+.main-container{
+    background: url(images/glowing-light-blue-abstract-programming-code-background-on-dark-software-or-script-development-concept_rgg0rnttyl_thumbnail-1080_01.png);
+    background-size: cover; 
+}
+
+.header{
+    background: rgba(0,0,0,0.9);
+    padding: 27px;
+    height: 20px;
+}
+
+.header h1{
+    font-family: sans-serif;
+    margin-left: 70px;
+    margin-top: -10px;
+    color: white;
+}
+
+.header img{
+    width: 7%;
+    margin-left: -25px;
+    margin-top: -60px;
+}
+
+.open{
+    display: none;
+}
+
+.header ul{
+    float: right;
+    margin-right: 200px;
+}
+
+.header li{
+    display: inline;
+    float: left;
+    margin-top: -70px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding: 40px;
+}
+
+.header button{
+    float: right;
+    margin-top: -66px;
+    margin-left: 500px;
+    width: 7%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: navy;
+    color: white;
+    font-size: 13px;
+    user-select: none;
+}
+
+.header button:hover{
+    background: darkblue;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container2 {
+    height:2px;
+    padding: 300px;
+    background: rgba(0,0,25,0.9);
+}
+
+.container2 h1{
+    color: white; 
+    text-align: center;
+    font-family: sans-serif; 
+    font-size: 60px;
+    width: 80%;
+    margin-top: -160px;
+    margin-left: 90px;
+    margin-bottom: 3px;
+}
+
+.container2 p{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 138px;
+}
+
+.container2 button{
+    margin-left: 310px;
+    margin-top: 20px;
+    width: 17%;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: navy;
+    color: white;
+    user-select: none;
+}
+
+.container2 button:hover{
+    background: darkblue;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.container2 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container3bg{
+    background: url(images/vector-binary-code-dark-blue-background-big-data-programming-hacking-deep-decryption-encryption-computer-streaming-numbers-1-0-coding-hacker-concept_167184-401.webp);
+    background-size: cover;
+}
+.container3{
+    background: rgba(0,0,0,0.7);
+    padding: 100px;
+}
+
+
+.container3 h3{
+    padding: 30px;
+    margin: 0 -30px;
+    font-family: sans-serif;
+    color: white; 
+    letter-spacing: 2;
+}
+
+.container3 h1{
+   margin: 0 0px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container3 p{
+    width: 58%;
+    margin: 10 -16px;
+    text-align: left;
+    font-size: 20px;
+    color: white
+}
+
+.container3 img{
+    width: 42%;
+    float: left;
+    margin-left: 704px;
+    margin-top: -310px;
+}
+.container4{
+    background: rgba(0,0,0,0.7);
+    padding: 150px;
+}
+.container4 img{
+    width: 47%;
+    float:left;
+    margin-left: -54px; 
+    margin-top: -20px;
+}
+
+.container4 h3{
+    text-align: center; 
+    font-family: sans-serif;
+    color: white;
+    padding: 10px;
+    margin-top: -40px;
+    margin-left: 600px;
+}
+
+.container4 h1{
+    text-align: right;
+    color: white;
+    font-family:sans-serif;
+    width: 70%;
+    margin-left: 380px;
+    font-size: 38px;
+    padding: 10px;
+    margin-top: -2px;
+}
+
+.container4 p{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.container4 button{
+    margin-left: 150px;
+    width: 400px;
+    background: navy;
+    color: white; 
+    border-radius: 10px;
+    margin-bottom: 2px;
+    height: 50px;
+    user-select: none;
+}
+
+#sub1{
+    display: none;
+}
+
+#sub2{
+    display: none;
+}
+
+
+.container5 h3{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.container5 h1{
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.bgdull{
+    background: rgba(0,0,0,0.7);
+}
+
+.container5bg{
+    background: url(images/istockphoto-537331500-170667a.jpg);
+    background-size: cover;
+}
+
+.images{
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+figure{
+    width: 40%;
+    height: 460px;
+    padding: 150px;
+    color: white;
+    margin-left: 130px;
+}
+
+figure img{
+    width: 90%;
+    border: 10px solid white;
+}
+
+figure:hover{
+    cursor: pointer;
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+figcaption{
+    text-align: center;
+    width: 100%;
+    margin-left: -50px;
+    font-size: 28px;
+    padding: 30px;
+}
+
+.container6{
+    padding: 400px;
+}
+
+.container6 p{
+    font-size: 30px;
+}
+
+.container6 h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:dodgerblue;
+  font-weight: bolder;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+/*
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 500px;
+  bottom: 8px;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+}
+*/
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.container7{
+    background: rgba(0,0,0,0.9);
+    padding: 110px;
+}
+
+.container7 h1,p{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container7 button{
+    margin-top:30px;
+    margin-left: 480px;
+    width: 17%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: navy;
+    color: white;
+    user-select: none;
+    
+}
+.container7 button:hover{
+    background: darkblue;
+    transition: 0.3s;
+}
+.container7 a{
+    text-decoration: none;
+    color: white;
+}
+.container8{
+    background: rgba(0,0,0,0.9);
+    height: 380px;
+    font-family: sans-serif;
+}
+
+.container8 h2{
+    padding: 30px;
+    float: left;
+    font-size: 18px;
+    margin-left: 310px;
+    color: white;
+}
+
+#firstul {
+    float:right;
+    margin-top: 126px;
+    color: white;
+}
+
+#firstul li{
+    display: block;
+    margin-left: -400px;
+    padding:11px;
+    font-size: 17px;
+}
+
+
+#secondul {
+    float: right;
+    margin-top: 120px;
+    color: white;
+}
+
+#secondul li{
+    display: block;
+    margin-left: -1000px;
+    padding:16px;
+    font-size: 17px;
+}
+
+.container8 a:hover{
+    color: blue;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container8 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container8 img{
+    width: 16%;
+    margin-top: 110px;
+    float: left;
+}
+
+.bottom {
+    background: rgba(0,0,0,0.9)
+}
+.bottom p{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/*ABOUT US PAGE*/
+
+
+.founder {
+    background: rgba(0,0,0,0.9);
+    height: 300px;
+}
+
+.founder img{
+    width: 14%;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.founder h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -210px;
+}
+
+.founder p{
+    width: 70%;
+    color: black;
+    float: right;
+    padding-bottom: 100px;
+    font-size: 17px;
+    margin-right: 100px;
+    color: white;
+    font-family: monospace;
+}
+
+
+.container9 {
+    padding: 150px;
+    background: rgba(0,0,0,0.9);
+}
+
+.container9 img{
+    float:left;
+    width: 50%;
+    margin-left: -140px;
+    margin-top: 20px;
+}
+
+.container9 h3{
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 20px;
+    
+}
+
+.container9 h1{
+    text-align: center;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+.container9 p{
+    text-align: left; 
+    margin-left: 400px;
+    font-size: 16px;
+}
+
+.container9 button{
+    margin-left: 220px;
+    margin-top: 10px;
+     width: 17%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background: navy;
+    color: white;
+    user-select: none;
+}
+
+.container9 button:hover{
+    background:darkblue;
+}
+
+.container9 a{
+    text-decoration: none;
+    color: white;
+}
+
+.container10 {
+    padding: 160px;
+    height: 40vh;
+}
+
+.container10 h1{
+    font-family: sans-serif;
+    font-size: 34px;
+    margin-left: -60px;
+}
+
+.container10 p{
+    color: black;
+    margin-left: -90px;
+    font-size: 17px;
+    width: 50%;
+}
+
+.container10 h3{
+    float: right; 
+    margin-top: -330px;
+    margin-right: 180px;
+    color: darkgoldenrod;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.container10 img{
+    width: 50%; 
+    float: right;
+    margin-top: -260px;   
+}
+
+.container11 p{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}

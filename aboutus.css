@@ -1,0 +1,298 @@
+.header{
+    width: 1204px;
+    background: rgba(0,0,0,0.9);
+    height: 140px;
+}
+
+.header h1{
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.header img{
+    width: 14%;
+    margin-top: -130px;
+}
+
+.main-container{
+    width: 1260px;
+    background: url(images/stock-photo-programming-work-time-programmer-typing-new-lines-of-html-code-laptop-and-hand-closeup-working-250nw-329205053.webp);
+    background-size: cover; 
+}
+
+.header ul{
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    float: none;
+    background: rgba(0,0,0,0.97);
+    margin-left: 462px;
+    height: 800px;
+    margin-right: 0px;
+    margin-top:0px;
+    padding: 140px;
+    border-radius:0px 0px 0px 40px;;
+}
+
+.header li{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 100px;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+.header ul {
+  animation-name: ul ;
+  animation-duration: 0.3s;
+}
+
+@keyframes ul {
+  from {opacity: .7}
+  to {opacity: 1}
+}
+
+.
+.header a:hover{
+    color: darkblue;
+    transition: 0.3s;
+}
+
+
+.open{
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    float: right;
+    margin-top: -107px;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    width:9%
+}
+
+.header button{
+    display: none;
+}
+
+
+/*ABOUT US PAGE*/
+
+.container9 {
+    padding: 150px;
+    background: rgba(0,0,0,0.8)
+}
+
+.container9 img{
+    float: none;
+    width: 100%;
+    margin-left: -10px;
+    margin-top:0px;
+}
+
+.container9 h3{
+    text-align: center;
+    font-size:30px;
+    padding: 100px;
+    
+}
+
+.container9 h1{
+    text-align: center;
+    color: white;
+    font-size: 110px;
+    font-family: sans-serif;
+}
+
+.container9 p{
+    margin-left: 0px;
+    margin-top: 120px;
+    font-size: 55px;
+    width: 100%;
+}
+
+.container9 button{
+    margin-left: 320px;
+    margin-top: 90px;
+    width: 33%;
+    height: 130px;
+    font-size: 44px;
+    border-radius: 9px;
+}
+
+.container10{
+    height: 130vh;
+}
+
+.container10bg{
+    background: rgba(0,0,0,0.9);
+}
+
+.container10 {
+    width: 95.8%;
+    padding: 160px;
+    background: url(images/vector-binary-code-dark-blue-background-big-data-programming-hacking-deep-decryption-encryption-computer-streaming-numbers-1-0-coding-hacker-concept_167184-401.webp);
+    background-size: cover;
+    color: white;
+}
+
+.container10 h1{
+    font-family: sans-serif;
+    font-size: 88px;
+    margin-left: 10px;
+    width: 900px;
+    text-align: center;
+}
+
+.container10 p{
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    font-size: 56px;
+    width: 900px;
+}
+
+.container10 h3{
+    float: none; 
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-left: 300px;
+    color: darkgoldenrod;
+    font-family: cursive;
+    font-size: 90px;
+}
+
+.container10 img{
+    width: 1200px; 
+    float: none;
+    margin-top:110px; 
+    margin-left: -130px;
+}
+
+.container11{
+    background: white;
+    width: 128.5%;
+    margin-top: -250px;
+}
+
+.container11 p{
+    margin-left: 170px;
+    width: 900px;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.container7{
+    background: rgba(0,0,1,0.6);
+    width: 1040px;
+}
+
+.container7 h1,p{
+    margin-top: 80px;
+}
+
+
+.container7 h1{
+    font-size: 100px;
+}
+
+.container7 p{
+    font-size: 50px;
+}
+
+.container7 button{
+    margin-top:60px;
+    margin-left: 380px;
+    width: 29%;
+    height: 100px;
+    font-size: 34px;
+    border: none;
+    border-radius: 9px;    
+}
+
+.founder {
+    height: 2100px;
+    width: 1260px;
+}
+.founder img{
+    width: 16%;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.founder h1{
+    font-size: 80px;
+}
+
+.founder p{
+    width: 70%;
+    text-align: left;
+    color: black;
+    float: right;
+    margin-top: 90px;
+    font-size: 60px;
+    margin-right: 100px;
+    color: white;
+    font-family: monospace;
+}
+
+.container8{
+    width: 1260px;
+    background: ;
+    height: 900px;
+    font-family: sans-serif;
+}
+
+.container8 h2{
+    padding: 90px;
+    float: left;
+    font-size: 40px;
+    margin-left: -50px;
+    letter-spacing: 7px;
+}
+
+#firstul {
+    float:right;
+    margin-top: 280px;
+}
+
+#firstul li{
+    margin-left: -400px;
+    padding:21px;
+    font-size: 44px;
+}
+
+
+#secondul {
+    float: right;
+    margin-top: 297px;
+}
+
+#secondul li{
+    display: block;
+    margin-left: -960px;
+    padding:24px;
+    font-size: 46px;
+    color: white;
+}
+
+.container8 img{
+    width: 26%;
+    margin-top: 70px;
+    float: left;
+}
+
+.bottom {
+    width: 1260px;
+    background: rgba(0,0,0,0.9);
+    margin-top: -100px;
+}
+.bottom p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
